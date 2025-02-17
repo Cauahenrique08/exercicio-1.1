@@ -1,8 +1,8 @@
 package view;
 
-import javax.swing.JOptionPane;
+import javax.swing.JOptionPane; 
 
-import ex1.Nnaturais;
+import ex1.Nnaturais; // importando a biblioteca com a operação da recursividade 
 
 public class principal {
 
@@ -11,7 +11,7 @@ public class principal {
 		Nnaturais nnaturais =new Nnaturais();
 		
    int numero = -1;
-     while(numero < 0)
+     while(numero < 0) // garantindo que o número seja maior que zero
      {
     	 
      
